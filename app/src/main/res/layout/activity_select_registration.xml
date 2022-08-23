@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectRegistration"
+    android:background="#fece2f"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:text="@string/welcome_to_petcare_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/title2"
+        android:text="Select one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="#000"/>
+
+    <Button
+        android:id="@+id/petReg"
+        android:text="Pet Registration"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+
+        android:layout_gravity="center"
+        android:textColor="#fff"/>
+
+
+    <Button
+        android:id="@+id/doctorReg"
+        android:text="Doctor Registration"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:textColor="#fff"/>
+
+
+
+    <TextView
+        android:id="@+id/back"
+        android:text="Already have an account? Login"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="#000"
+        android:gravity="center"
+        android:textSize="20sp"/>
+
+</LinearLayout>

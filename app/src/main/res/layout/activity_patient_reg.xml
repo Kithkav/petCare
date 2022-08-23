@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fece2f"
+    tools:context=".patientReg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/signup_back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:src="@drawable/ic_back"
+            android:transitionName="transition_back_arrow_btn" />
+
+        <TextView
+            android:id="@+id/title"
+            android:text="Pet Registration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#000"/>
+
+
+
+
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/petName"
+            android:hint="Enter your pet's name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:textColor="#000"
+            android:textSize="18sp">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/petType"
+            android:hint="Enter your pet's type"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:inputType="text"
+            android:textColor="#000"
+            android:textSize="18sp">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/petAge"
+            android:hint="Enter your pet's age"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:inputType="number"
+            android:textColor="#000"
+            android:textSize="18sp"
+          >
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/petGender"
+            android:hint="Enter your pet's gender"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:inputType="text"
+            android:textColor="#000"
+            android:textSize="18sp">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/petColour"
+            android:hint="Enter your pet's colour"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:inputType="text"
+            android:textColor="#000"
+            android:textSize="18sp">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/regButton"
+            android:text="Click here to Register"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:id="@+id/regPageQuestion"
+            android:text="Already have an account? Login"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+</LinearLayout>
